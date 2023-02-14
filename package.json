@@ -1,5 +1,5 @@
 {
-  "name": "vuepress-starter",
+  "name": "code-review",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,5 +16,5 @@
     "vuepress": "^1.9.7"
   },
   "private": true,
-  "homepage" : "https://wangyue-wy.github.io/vuepress-starter/"
+  "homepage" : "https://wangyue-wy.github.io/code-review/"
 }
