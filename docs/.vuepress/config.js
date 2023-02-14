@@ -1,7 +1,7 @@
 module.exports = {
     title: "Happy Ms. Dan",
     description: 'My personal blog',
-    base: '/vuepress-starter/', // 此处设置仓库名称
+    base: '/code-review/', // 此处设置仓库名称
     head: [
         ['link', { rel: 'icon', href: '/images/wd-img.jpg' }]
     ],
@@ -20,27 +20,12 @@ module.exports = {
             //         { text: 'js笔记',  link: '/javaScript/jsNote/reduce' },
             //     ]
             // },
-            { text: '数据结构', link: '/javaScript/dataStructure/dataStructure' },
-            {
-                text: 'vuepress',
-                items: [
-                    { text: 'vuepress搭建', link: '/pressWord/pressBuild/pressBuild' },
-                    { text: 'vuepress部署', link: '/pressWord/pressDeploy/pressDeploy' }
-                ]
-            },
-            { text: 'js知识点', link: '/javaScript/knowledge/knowledge' },
-            { text: 'openLayers', link: '/openLayers/openLayers'}
+            { text: '数据结构', link: '/javaScript/dataStructure/dataStructure' }
             
         ],
         sidebar: {  //配置侧边栏
             '/javaScript/dataStructure/': [
                 'dataStructure'
-            ],
-            '/javaScript/knowledge/': [
-                'knowledge'
-            ],
-            '/openLayers/': [
-                'openLayers'
             ]
         }
     },
